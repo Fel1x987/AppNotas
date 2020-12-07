@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:title="Home" android:id="@+id/menuopcion1" android:icon="@drawable/ic_action_home"/>
+        <item android:title="Cart" android:id="@+id/menuopcion2" android:icon="@drawable/ic_action_cart" />
+        <item android:title="Settings" android:id="@+id/menuopcion3" android:icon="@drawable/ic_action_settings" />
+    </group>
+
+
+    <item android:id="@+id/navigation_subheader" android:title="Otras opciones">
+        <item android:title="Opción 4" android:id="@+id/menuopcion4" android:icon="@drawable/ic_action_home"></item>
+        <item android:title="Opción 5" android:id="@+id/menuopcion5" android:icon="@drawable/ic_action_settings"></item>
+    </item>
+</menu>
